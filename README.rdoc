@@ -1,0 +1,24 @@
+== README
+
+Complete replication from {rails-4-omniauth-using-devise-with-twitter-facebook-and-linkedin}[http://sourcey.com/rails-4-omniauth-using-devise-with-twitter-facebook-and-linkedin/]
+
+Works good for {fb}[www.facebook.com] and {twitter}[www.twitter.com]
+
+LinkedIn email and name isn't getting stored, even though API call is returning that information.
+
+Twitter doesn't return email, so another step is being added in the app.
+
+Register a new app if you don't have one and generate App ID and App Secret token
+
+https://developers.facebook.com/
+ Settings link - Advanced Tab: Valid OAuth redirect URIs: http://127.0.0.1:3000/
+ 
+https://apps.twitter.com/
+ Website: http://127.0.0.1:3000/
+ Callback URL: http://127.0.0.1:3000/
+
+https://www.linkedin.com/secure/developer
+ Website URL:http://127.0.0.1:3000/
+ OAuth 2.0 Redirect URLs: http://127.0.0.1:3000/ 
+
+Store AppId and Secret in devise.rb
