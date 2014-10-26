@@ -10,14 +10,14 @@ Twitter doesn't return <tt>email</tt>, so another step is being added in the app
 
 == Generate App ID and App Secret token
 
-{www.facebook.com}[https://developers.facebook.com/]
+{developers.facebook.com}[https://developers.facebook.com/]
  Settings link - Advanced Tab: Valid OAuth redirect URIs: http://127.0.0.1:3000/
  
-{twitter.com}[https://apps.twitter.com/]
+{apps.twitter.com/}[https://apps.twitter.com/]
  Website: http://127.0.0.1:3000/
  Callback URL: http://127.0.0.1:3000/
 
-{linkedin.com}[https://www.linkedin.com/secure/developer]
+{linkedin.com/secure/developer}[https://www.linkedin.com/secure/developer]
  Website URL:http://127.0.0.1:3000/
  OAuth 2.0 Redirect URLs: http://127.0.0.1:3000/ 
 
