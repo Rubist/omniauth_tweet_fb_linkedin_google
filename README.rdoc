@@ -21,6 +21,6 @@ Twitter doesn't return <tt>email</tt>, so another step is being added in the app
  Website URL:http://127.0.0.1:3000/
  OAuth 2.0 Redirect URLs: http://127.0.0.1:3000/ 
 
-Store AppId and Secret in <tt>devise.rb</tt>
+Store AppId and Secret key in <tt>devise.rb</tt>
 
 Go on ... get on with it now!
