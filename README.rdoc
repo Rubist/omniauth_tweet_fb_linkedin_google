@@ -20,6 +20,13 @@ Twitter doesn't return <tt>email</tt>, so another step is being added in the app
 {linkedin.com/secure/developer}[https://www.linkedin.com/secure/developer]
  Website URL:http://127.0.0.1:3000/
  OAuth 2.0 Redirect URLs: http://127.0.0.1:3000/ 
+ 
+{console.developers.google.com}[https://console.developers.google.com/]
+ create App project 
+ Enable Gmail Api, Gmail Contact Api etc..,
+ Website URL:http://127.0.0.1:3000/
+ 
+ OAuth 2.0 Redirect URLs: http://127.0.0.1:3000/users/auth/google_oauth2/callback
 
 Store AppId and Secret key in <tt>devise.rb</tt>
 
